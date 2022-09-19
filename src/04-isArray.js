@@ -1,7 +1,25 @@
 /**
- ** @author {your name}
+ ** @author {Elisabetta}
  ** @function
  ** @return
  * @param collection
  **/
-export default function isArray() {}
+
+
+
+const isArray = (collection) => {
+    const isRequired = () => {throw new Error('collection is required')};
+    if(collection !== undefined)
+    {
+        if(Array.isArray(collection)){
+            return true;
+        }
+        else
+            return false;
+    }
+
+    else
+        isRequired();
+}
+
+export default isArray;

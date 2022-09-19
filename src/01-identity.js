@@ -1,9 +1,11 @@
 /**
- ** @author {your name}
+ ** @author {Elisabettq}
  ** @function
  ** @param {array}
  ** @return
  **/
-function identity() {
-  // Given a value, the identity function returns that value
+const identity = (array) => {
+  return array;
 }
+export default identity;
+

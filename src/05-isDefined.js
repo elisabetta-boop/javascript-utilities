@@ -1,7 +1,15 @@
 /**
- ** @author {your name}
+ ** @author {Elisabetta}
  ** @function
  ** @return
  * @param args
  **/
-function isDefined() {}
+
+const isDefined = (args) => {
+    if(typeof args !== 'undefined')
+        return true;
+    else
+        return false;
+}
+
+export default isDefined;

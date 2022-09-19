@@ -1,7 +1,11 @@
 /**
- ** @author {your name}
+ ** @author {Elisabetta}
  ** @function
  ** @return {boolean}
  * @param args
  **/
-function isFunction() {}
+ const isFunction = (args) => {
+    return (typeof args === 'function');
+}
+
+export default isFunction;

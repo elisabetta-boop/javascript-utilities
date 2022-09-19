@@ -4,4 +4,8 @@
  ** @return {boolean}
  * @param args
  **/
-function isDate() {}
+ const isDate = (args) => {
+    return args instanceof Date;
+}
+
+export default isDate;
